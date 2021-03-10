@@ -1,0 +1,9 @@
+﻿<h1>Welcome to the Teacher Registration System</h1>
+
+    @foreach (var t in Model)
+    {
+        <div>
+            <h3>@t.FirstName t.LastName</h3>
+            <h4>@t.Salary.ToString("c")</h4>
+        </div>
+    }
